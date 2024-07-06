@@ -1,0 +1,9 @@
+[package]
+name = "iced"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { git = "https://github.com/iced-rs/iced.git", rev = "refs/tags/text-editor", features=["debug"]}
+rfd = "0.14.1"
+tokio = {version = "1.38.0", features=["full"]}
